@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP Design</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-logo">
+            <img src="img/logoWhite.png" alt="logo">
+        </div>
+        <button class="nav-toggle" id="toggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <div class="nav-drawer" id="drawer">
+        <a href="#landingPage">Home</a>
+        <a href="#clients">Clients</a>
+        <a href="#aboutMe">About Me</a>
+        <a href="#workProcess">Work Process</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <nav id="desktopNavbar">
+        <img src="img/logoWhite.png" alt="logo">
+        <a href="#landingPage">Home</a>
+        <a href="#clients">Clients</a>
+        <a href="#aboutMe">About Me</a>
+        <a href="#workProcess">Work Process</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="landingPage">
+        <div class="landing-eyebrow">Web Designer & Developer</div>
+        <h1>I Build High-Converting <span class="accent">Websites</span> for Local Businesses</h1>
+        <h2>Helping small brands turn visitors into paying customers</h2>
+
+        <div id="landingPageButtons">
+            <button type="button" class="btn-primary" onclick="location.href='#aboutMe'">Find out more</button>
+            <button type="button" class="btn-secondary" onclick="location.href='#contact'">Work with me</button>
+        </div>
+
+        <div id="skillsLine">
+            <div class="skillBox">
+                <h1>3</h1>
+                <p>Years of experience</p>
+            </div>
+            <div class="skillBox"><h1>HTML</h1></div>
+            <div class="skillBox"><h1>CSS</h1></div>
+            <div class="skillBox"><h1>JS</h1></div>
+            <div class="skillBox"><h1>CMS</h1></div>
+        </div>
+    </section>
+
+    <section id="clients" class="reveal">
+        <div class="section-label">Portfolio</div>
+        <div class="section-title">MY CLIENTS</div>
+
+        <div id="clientLine">
+            <div class="client">
+                <div class="client-avatar">A</div>
+                <p>Name</p>
+            </div>
+            <div class="client">
+                <div class="client-avatar">B</div>
+                <p>Name</p>
+            </div>
+            <div class="client">
+                <div class="client-avatar">C</div>
+                <p>Name</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="aboutMe" class="reveal">
+        <div class="section-label">Who I am</div>
+        <div class="section-title">ABOUT ME</div>
+
+        <div id="aboutMeContent">
+            <p>
+                My name is Mai, a 17 year old IT student
+                that decided to start <span class="highlight">professionally
+                designing websites.</span><br><br>
+
+                I enjoy and put <span class="highlight">100% effort</span> into every new
+                project I get to work on. I am only satisfied
+                once <span class="highlight">you</span> are.<br><br>
+
+                <span class="highlight">Communication is key for me.</span> Frequent
+                updates, your feedback and cooperation
+                always results in a great site.<br><br>
+
+                A website is a first impression of your
+                business to the public. That is why <span class="highlight">every
+                detail matters</span> to me. With me your online
+                look is in safe hands.
+            </p>
+
+            <div class="about-image-wrap">
+                <img src="#" alt="Mai Pompe - Owner" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                <div class="about-image-placeholder">Photo</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="workProcess" class="reveal">
+        <div class="section-label">How it works</div>
+        <div class="section-title">WORK PROCESS</div>
+
+        <div class="process-grid">
+            <div class="processStep">
+                <div class="processNumber"><p>1</p></div>
+                <div class="processDescription">
+                    <h2>IDEA</h2>
+                    <p>We work out what you need on your site, your preferences, wishes, ... : Site sections, section layout, colors, typography, and extra wishes.</p>
+                </div>
+            </div>
+
+            <div class="processStep">
+                <div class="processNumber"><p>2</p></div>
+                <div class="processDescription">
+                    <h2>DESIGN</h2>
+                    <p>I create a personalized design for you. After we are both satisfied with the design I move on to the next step.</p>
+                </div>
+            </div>
+
+            <div class="processStep">
+                <div class="processNumber"><p>3</p></div>
+                <div class="processDescription">
+                    <h2>CODING</h2>
+                    <p>Based on the design I create the full website, which is 100% original and hand coded.</p>
+                </div>
+            </div>
+
+            <div class="processStep">
+                <div class="processNumber"><p>4</p></div>
+                <div class="processDescription">
+                    <h2>FINAL CHANGES AND DEPLOYMENT</h2>
+                    <p>In case of any additional requests they are fulfilled and the site is deployed for the public to see.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="reveal">
+        <div class="section-label">Get in touch</div>
+        <div class="section-title">READY TO BUILD YOUR WEBSITE?...</div>
+        <p>Or have any additional questions?</p>
+
+        <div class="contact-layout">
+            <form action="https://formspree.io/f/mpqjjole" method="POST">
+                <h1>...THEN FILL OUT THIS FORM...</h1>
+
+                <div class="form-group">
+                    <label for="nameSurname">Name and Surname <span class="required">*</span></label>
+                    <input type="text" id="nameSurname" name="Name and Surname" required placeholder="John Smith">
+                </div>
+
+                <div class="form-group">
+                    <label for="phoneNumber">Phone Number <span class="required">*</span></label>
+                    <input type="tel" id="phoneNumber" name="Phone Number" required placeholder="+386 ...">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail <span class="required">*</span></label>
+                    <input type="email" id="email" name="E-mail" required placeholder="your@email.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject <span class="required">*</span></label>
+                    <input type="text" id="subject" name="Subject" required placeholder="What can I help you with?">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message <span class="required">*</span></label>
+                    <textarea id="message" name="Message" placeholder="Tell me about your project..."></textarea>
+                </div>
+
+                <div id="formButtons">
+                    <button type="submit" class="btn-primary">SEND</button>
+                    <button type="reset" class="btn-secondary">CLEAR</button>
+                </div>
+            </form>
+
+            <div id="contactInfo">
+                <h1>...OR CONTACT ME</h1>
+
+                <div class="specificContactInfo" id="ownerContactInfo">
+                    <img src="#" alt="Mai Pompe - Owner" onerror="this.style.background='#2a2a2a'">
+                    <h3>Mai Pompe <br><span>Web Designer</span></h3>
+                </div>
+
+                <div class="specificContactInfo">
+                    <div class="contact-detail-row">
+                        <span class="label">Email</span>
+                        <span class="value"><a href="mailto:pompemaibiz@gmail.com">pompemaibiz@gmail.com</a></span>
+                    </div>
+                    <div class="contact-detail-row">
+                        <span class="label">Phone</span>
+                        <span class="value"><a href="tel:+386041906290">+386 041 906 290</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="backToTopButton">
+        <button type="button" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑ BACK TO TOP</button>
+    </div>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footerSection">
+                <h2>Quick Links</h2>
+                <a href="#landingPage">Home</a>
+                <a href="#clients">Clients</a>
+                <a href="#aboutMe">About Me</a>
+                <a href="#workProcess">Work Process</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="footerSection" style="align-items:center;">
+                <img src="img/logoWhite.png" alt="logo" class="footer-logo">
+                <div id="socialMedia">
+                    <a href="https://www.facebook.com/profile.php?id=61580860101580"><img src="img/facebookLogo.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/mpcomponentry/"><img src="img/instagramLogo.png" alt="Instagram"></a>
+                </div>
+            </div>
+
+            <div class="footerSection">
+                <h2>Contact</h2>
+                <a href="mailto:pompemaibiz@gmail.com">pompemaibiz@gmail.com</a>
+                <a href="tel:+386041906290">+386 041 906 290</a>
+            </div>
+        </div>
+    </footer>
+
+    <p id="copyright">All rights reserved. MP Design 2026</p>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
