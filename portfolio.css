@@ -95,6 +95,12 @@ body {
 }
 .nav-drawer a:hover { color: var(--white); }
 .nav-drawer a:hover::before { opacity: 1; transform: scale(1); }
+.nav-drawer a.nav-external {
+    color: var(--lime);
+    opacity: 0.7;
+}
+.nav-drawer a.nav-external:hover { opacity: 1; }
+
 #navbar.open ~ .nav-drawer a { animation: slideIn 0.4s ease both; }
 #navbar.open ~ .nav-drawer a:nth-child(1) { animation-delay: 0.05s; }
 #navbar.open ~ .nav-drawer a:nth-child(2) { animation-delay: 0.10s; }
@@ -746,6 +752,8 @@ footer img.footer-logo { width: 60px; height: 60px; margin-bottom: 8px; }
     }
     #desktopNavbar a:hover { color: var(--white); }
     #desktopNavbar a:hover::after { transform: scaleX(1); }
+    #desktopNavbar a.nav-external { color: rgba(200,245,66,0.6); }
+    #desktopNavbar a.nav-external:hover { color: var(--lime); }
 
     /* LANDING */
     #landingPage { padding-top: 100px; }
