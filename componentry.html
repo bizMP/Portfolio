@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP Componentry</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="componentry.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-logo">
+            <img src="img/logoWhite.png" alt="logo">
+        </div>
+        <button class="nav-toggle" id="toggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <div class="nav-drawer" id="drawer">
+        <a href="#landingPage">Home</a>
+        <a href="#bestSellers">Best Sellers</a>
+        <a href="#whyTrustMe">Why Trust Me?</a>
+        <a href="#components">Components</a>
+        <a href="#contact">Contact</a>
+        <a href="index.html">MP Portfolio</a>
+    </div>
+
+    <nav id="desktopNavbar">
+        <img src="img/logoWhite.png" alt="logo">
+        <a href="#landingPage">Home</a>
+        <a href="#bestSellers">Best Sellers</a>
+        <a href="#whyTrustMe">Why Trust Me?</a>
+        <a href="#components">Components</a>
+        <a href="#contact">Contact</a>
+        <a href="index.html">MP Portfolio</a>
+    </nav>
+
+    <section id="landingPage">
+        <div class="landing-eyebrow">UI Component Store</div>
+        <h1>Production-Ready Website <span class="accent">Components</span> for Modern Developers</h1>
+        <h2>Save hours of development time with clean, responsive, customizable UI components.</h2>
+
+        <div id="landingPageButtons">
+            <button type="button" class="btn-primary" onclick="location.href='#components'">Browse Components</button>
+            <button type="button" class="btn-secondary" onclick="location.href='#whyTrustMe'">Find Out More</button>
+        </div>
+
+        <div id="skillsLine">
+            <div class="skillBox">
+                <h1>3</h1>
+                <p>Years of experience</p>
+            </div>
+            <div class="skillBox"><h1>HTML</h1></div>
+            <div class="skillBox"><h1>CSS</h1></div>
+            <div class="skillBox"><h1>JS</h1></div>
+            <div class="skillBox"><h1>CMS</h1></div>
+        </div>
+    </section>
+
+    <section id="bestSellers" class="reveal">
+        <div class="section-label">Top Picks</div>
+        <div class="section-title">BEST SELLERS</div>
+
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-image">Preview</div>
+                <div class="card-body">
+                    <div class="card-name">Component name</div>
+                    <div class="card-price">XX$</div>
+                    <div class="card-meta">
+                        <span class="card-stars">★★★★★ (x)</span>
+                        <span class="card-sales">xxx sales</span>
+                    </div>
+                    <div class="card-btn"><button type="button">View More</button></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">Preview</div>
+                <div class="card-body">
+                    <div class="card-name">Component name</div>
+                    <div class="card-price">XX$</div>
+                    <div class="card-meta">
+                        <span class="card-stars">★★★★★ (x)</span>
+                        <span class="card-sales">xxx sales</span>
+                    </div>
+                    <div class="card-btn"><button type="button">View More</button></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">Preview</div>
+                <div class="card-body">
+                    <div class="card-name">Component name</div>
+                    <div class="card-price">XX$</div>
+                    <div class="card-meta">
+                        <span class="card-stars">★★★★★ (x)</span>
+                        <span class="card-sales">xxx sales</span>
+                    </div>
+                    <div class="card-btn"><button type="button">View More</button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="whyTrustMe" class="reveal">
+        <div class="section-label">Why choose us</div>
+        <div class="section-title">WHY TRUST ME?</div>
+
+        <div class="trust-grid">
+            <div class="trustMeReason">
+                <div class="trustMeNumber"><p>1</p></div>
+                <div class="trustMeReasonTxt">
+                    <h2>ORIGINAL DESIGNS</h2>
+                    <p>While other component stores on the internet copy from each other, change a couple colors, double the price and call it a new component... I design my own components according to the market trends.</p>
+                </div>
+            </div>
+
+            <div class="trustMeReason">
+                <div class="trustMeNumber"><p>2</p></div>
+                <div class="trustMeReasonTxt">
+                    <h2>EASY CUSTOMIZATION</h2>
+                    <p>Comments make it really easy for you to find parts of code you want to change.</p>
+                </div>
+            </div>
+
+            <div class="trustMeReason">
+                <div class="trustMeNumber"><p>3</p></div>
+                <div class="trustMeReasonTxt">
+                    <h2>BEST MARKET PRICES</h2>
+                    <p>Here you will receive the best price to value ratio on the whole market.</p>
+                </div>
+            </div>
+
+            <div class="trustMeReason">
+                <div class="trustMeNumber"><p>4</p></div>
+                <div class="trustMeReasonTxt">
+                    <h2>LIGHTWEIGHT AND OPTIMIZED</h2>
+                    <p>No optimization or code restructuring is necessary after customizing the component to your liking. You just use it.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="components" class="reveal">
+        <div class="section-label">Browse</div>
+        <div class="section-title">COMPONENTS</div>
+
+        <div id="componentSections">
+            <a href="#" class="active">Landing Pages</a>
+            <a href="#">About Us</a>
+            <a href="#">Pricing Tables</a>
+            <a href="#">Testimonials</a>
+            <a href="#">Cards</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-image">Preview</div>
+                <div class="card-body">
+                    <div class="card-name">Component name</div>
+                    <div class="card-price">XX$</div>
+                    <div class="card-meta">
+                        <span class="card-stars">★★★★★ (x)</span>
+                        <span class="card-sales">xxx sales</span>
+                    </div>
+                    <div class="card-btn"><button type="button">View More</button></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">Preview</div>
+                <div class="card-body">
+                    <div class="card-name">Component name</div>
+                    <div class="card-price">XX$</div>
+                    <div class="card-meta">
+                        <span class="card-stars">★★★★★ (x)</span>
+                        <span class="card-sales">xxx sales</span>
+                    </div>
+                    <div class="card-btn"><button type="button">View More</button></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">Preview</div>
+                <div class="card-body">
+                    <div class="card-name">Component name</div>
+                    <div class="card-price">XX$</div>
+                    <div class="card-meta">
+                        <span class="card-stars">★★★★★ (x)</span>
+                        <span class="card-sales">xxx sales</span>
+                    </div>
+                    <div class="card-btn"><button type="button">View More</button></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">Preview</div>
+                <div class="card-body">
+                    <div class="card-name">Component name</div>
+                    <div class="card-price">XX$</div>
+                    <div class="card-meta">
+                        <span class="card-stars">★★★★★ (x)</span>
+                        <span class="card-sales">xxx sales</span>
+                    </div>
+                    <div class="card-btn"><button type="button">View More</button></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">Preview</div>
+                <div class="card-body">
+                    <div class="card-name">Component name</div>
+                    <div class="card-price">XX$</div>
+                    <div class="card-meta">
+                        <span class="card-stars">★★★★★ (x)</span>
+                        <span class="card-sales">xxx sales</span>
+                    </div>
+                    <div class="card-btn"><button type="button">View More</button></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">Preview</div>
+                <div class="card-body">
+                    <div class="card-name">Component name</div>
+                    <div class="card-price">XX$</div>
+                    <div class="card-meta">
+                        <span class="card-stars">★★★★★ (x)</span>
+                        <span class="card-sales">xxx sales</span>
+                    </div>
+                    <div class="card-btn"><button type="button">View More</button></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">Preview</div>
+                <div class="card-body">
+                    <div class="card-name">Component name</div>
+                    <div class="card-price">XX$</div>
+                    <div class="card-meta">
+                        <span class="card-stars">★★★★★ (x)</span>
+                        <span class="card-sales">xxx sales</span>
+                    </div>
+                    <div class="card-btn"><button type="button">View More</button></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">Preview</div>
+                <div class="card-body">
+                    <div class="card-name">Component name</div>
+                    <div class="card-price">XX$</div>
+                    <div class="card-meta">
+                        <span class="card-stars">★★★★★ (x)</span>
+                        <span class="card-sales">xxx sales</span>
+                    </div>
+                    <div class="card-btn"><button type="button">View More</button></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">Preview</div>
+                <div class="card-body">
+                    <div class="card-name">Component name</div>
+                    <div class="card-price">XX$</div>
+                    <div class="card-meta">
+                        <span class="card-stars">★★★★★ (x)</span>
+                        <span class="card-sales">xxx sales</span>
+                    </div>
+                    <div class="card-btn"><button type="button">View More</button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="reveal">
+        <div class="section-label">Get in touch</div>
+        <div class="section-title">READY TO START BUILDING FASTER?</div>
+        <p>Or have any additional questions?</p>
+
+        <div class="contact-layout">
+            <form>
+                <h1>...THEN FILL OUT THIS FORM...</h1>
+
+                <div class="form-group">
+                    <label for="nameSurname">Name and Surname <span class="required">*</span></label>
+                    <input type="text" id="nameSurname" name="Name and Surname" required placeholder="John Smith">
+                </div>
+
+                <div class="form-group">
+                    <label for="phoneNumber">Phone Number <span class="required">*</span></label>
+                    <input type="tel" id="phoneNumber" name="Phone Number" required placeholder="+386 ...">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail <span class="required">*</span></label>
+                    <input type="email" id="email" name="E-mail" required placeholder="your@email.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject <span class="required">*</span></label>
+                    <input type="text" id="subject" name="Subject" required placeholder="What can I help you with?">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message <span class="required">*</span></label>
+                    <textarea id="message" name="Message" placeholder="Tell me about your project..."></textarea>
+                </div>
+
+                <div id="formButtons">
+                    <button type="submit" class="btn-primary">SEND</button>
+                    <button type="reset" class="btn-secondary">CLEAR</button>
+                </div>
+            </form>
+
+            <div id="contactInfo">
+                <h1>...OR CONTACT ME</h1>
+
+                <div class="specificContactInfo" id="ownerContactInfo">
+                    <img src="#" alt="Mai Pompe - Owner" onerror="this.style.background='#2a2a2a'">
+                    <h3>Mai Pompe <br><span>Web Designer</span></h3>
+                </div>
+
+                <div class="specificContactInfo">
+                    <div class="contact-detail-row">
+                        <span class="label">Email</span>
+                        <span class="value"><a href="mailto:pompemaibiz@gmail.com">pompemaibiz@gmail.com</a></span>
+                    </div>
+                    <div class="contact-detail-row">
+                        <span class="label">Phone</span>
+                        <span class="value"><a href="tel:+386041906290">+386 041 906 290</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="backToTopButton">
+        <button type="button" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑ BACK TO TOP</button>
+    </div>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footerSection">
+                <h2>Quick Links</h2>
+                <a href="#landingPage">Home</a>
+                <a href="#bestSellers">Best Sellers</a>
+                <a href="#whyTrustMe">Why Trust Me?</a>
+                <a href="#components">Components</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="footerSection" style="align-items:center;">
+                <img src="img/logoWhite.png" alt="logo" class="footer-logo">
+                <div id="socialMedia">
+                    <a href="https://www.facebook.com/profile.php?id=61580860101580"><img src="img/facebookLogo.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/mpcomponentry/"><img src="img/instagramLogo.png" alt="Instagram"></a>
+                </div>
+            </div>
+
+            <div class="footerSection">
+                <h2>Contact</h2>
+                <a href="mailto:pompemaibiz@gmail.com">pompemaibiz@gmail.com</a>
+                <a href="tel:+386041906290">+386 041 906 290</a>
+            </div>
+        </div>
+    </footer>
+
+    <p id="copyright">All rights reserved. MP Design 2026</p>
+
+    <script src="componentry.js"></script>
+</body>
+</html>
